@@ -76,13 +76,15 @@ public class CurrencyConverter{
 	}
 	
 	public static void main(String args[]) throws IOException{
+		if(args.length!=3){
+			System.out.println("Invalid number of arguments.");
+			System.exit(1);
+		}		
 		Double amount = Double.parseDouble(args[0]);
 		String source = args[1];
 		String target = args[2];
 		getCurrencyList();
-		if(args.length!=3){
-			System.out.println("Invalid number of arguments.");
-		}
+		
 		if(!currencyCodes.contains(source)){
 			System.out.println("Invalid source currency");
 			System.exit(1);
