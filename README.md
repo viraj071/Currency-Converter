@@ -6,6 +6,10 @@ Dependancies
 * Java 1.8
 * Libraries included in the lib folder
 
+API
+---
+[Fixer API](http://fixer.io)
+
 Supported Currencies
 --------------------
 AUD
