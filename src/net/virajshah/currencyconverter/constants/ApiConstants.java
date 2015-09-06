@@ -1,6 +1,6 @@
 package net.virajshah.currencyconverter.constants;
 
-public class ApiConstants{
+public final class ApiConstants{
 	
 	// Constants required for the API
 	public static final String BASE_URL = "http://api.fixer.io/";
